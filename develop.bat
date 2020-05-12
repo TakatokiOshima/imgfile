@@ -1,3 +1,4 @@
+echo off
 git branch --contains >> qwertyuioplkhgfdsazxcvbnm.txt
 set /p branchName= <qwertyuioplkhgfdsazxcvbnm.txt
 del qwertyuioplkhgfdsazxcvbnm.txt
