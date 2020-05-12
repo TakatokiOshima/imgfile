@@ -1,4 +1,11 @@
-echo off
+git add .
+git diff head
+git reset %~dp0%develop.txt
+git diff head
+
+Pause
+exit
+
 git branch --contains >> qwertyuioplkhgfdsazxcvbnm.txt
 set /p branchName= <qwertyuioplkhgfdsazxcvbnm.txt
 del qwertyuioplkhgfdsazxcvbnm.txt
