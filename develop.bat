@@ -10,5 +10,6 @@ echo %commitMessage%
 git add .
 git commit -a -m "%commitMessage"
 for /f "delims=* tokens=1,2" %%a in (log.txt) do git push origin %%a
+del log.txt
 echo on
 echo completed.
