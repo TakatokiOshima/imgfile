@@ -10,6 +10,6 @@ set /p commitMessage="---->"
 
 echo on
 git add .
-git commit -a -m "%commitMessage"
+git commit -a -m "%commitMessage%"
 git push origin %branchName:~2%
 Pause
