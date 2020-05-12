@@ -1,8 +1,6 @@
-echo off
-
-git branch --contains >> log.txt
-set /p branchName= <log.txt
-del log.txt
+git branch --contains >> qwertyuioplkhgfdsazxcvbnm.txt
+set /p branchName= <qwertyuioplkhgfdsazxcvbnm.txt
+del qwertyuioplkhgfdsazxcvbnm.txt
 
 set commitMessage=
 echo [    please commit message.   ]
